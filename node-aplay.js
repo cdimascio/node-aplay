@@ -14,7 +14,7 @@ var spawn = require('child_process').spawn
 var events = require('events')
 var util = require('util')
 
-var aplayExec = os.platform() === 'darwin' ? 'play' : 'aplay'
+var aplayExec = os.platform() === 'darwin' ? 'play' : 'play'
 
 function Sound () {
   events.EventEmitter.call(this)
